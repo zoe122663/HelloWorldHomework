@@ -1,0 +1,54 @@
+2020/01/24-07:52:39.761 ab03 Reusing MANIFEST /Users/uc17606/Library/Application Support/Google/Chrome/Default/Session Storage/MANIFEST-000001
+2020/01/24-07:52:39.761 ab03 Recovering log #3
+2020/01/24-07:52:39.761 ab03 Reusing old log /Users/uc17606/Library/Application Support/Google/Chrome/Default/Session Storage/000003.log 
+2020/01/24-08:39:11.304 111a3 Level-0 table #5: started
+2020/01/24-08:39:11.337 111a3 Level-0 table #5: 17821 bytes OK
+2020/01/24-08:39:11.429 111a3 Delete type=0 #3
+2020/01/27-13:48:05.340 111a3 Level-0 table #7: started
+2020/01/27-13:48:05.367 111a3 Level-0 table #7: 17866 bytes OK
+2020/01/27-13:48:05.471 111a3 Delete type=0 #4
+2020/01/27-14:37:00.133 111a3 Level-0 table #9: started
+2020/01/27-14:37:00.162 111a3 Level-0 table #9: 16191 bytes OK
+2020/01/27-14:37:00.297 111a3 Delete type=0 #6
+2020/01/28-13:27:04.029 111a3 Level-0 table #11: started
+2020/01/28-13:27:04.060 111a3 Level-0 table #11: 15104 bytes OK
+2020/01/28-13:27:04.154 111a3 Delete type=0 #8
+2020/01/28-13:33:36.909 111a3 Level-0 table #13: started
+2020/01/28-13:33:36.942 111a3 Level-0 table #13: 18425 bytes OK
+2020/01/28-13:33:37.041 111a3 Delete type=0 #10
+2020/01/28-13:39:00.123 111a3 Level-0 table #15: started
+2020/01/28-13:39:00.150 111a3 Level-0 table #15: 19639 bytes OK
+2020/01/28-13:39:00.288 111a3 Delete type=0 #12
+2020/01/28-13:39:00.332 111a3 Compacting 4@0 + 1@1 files
+2020/01/28-13:39:00.364 111a3 Generated table #16@0: 221 keys, 84346 bytes
+2020/01/28-13:39:00.367 111a3 Compacted 4@0 + 1@1 files => 84346 bytes
+2020/01/28-13:39:00.504 111a3 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/01/28-13:39:00.505 111a3 Delete type=2 #15
+2020/01/28-13:39:00.506 111a3 Delete type=2 #7
+2020/01/28-13:39:00.506 111a3 Delete type=2 #13
+2020/01/28-13:39:00.506 111a3 Delete type=2 #11
+2020/01/28-13:39:00.506 111a3 Delete type=2 #9
+2020/01/28-14:03:52.849 111a3 Level-0 table #18: started
+2020/01/28-14:03:52.883 111a3 Level-0 table #18: 35471 bytes OK
+2020/01/28-14:03:52.980 111a3 Delete type=0 #14
+2020/01/28-14:04:46.063 111a3 Level-0 table #20: started
+2020/01/28-14:04:46.091 111a3 Level-0 table #20: 22539 bytes OK
+2020/01/28-14:04:46.155 111a3 Delete type=0 #17
+2020/01/29-12:20:37.203 111a3 Level-0 table #22: started
+2020/01/29-12:20:37.230 111a3 Level-0 table #22: 16921 bytes OK
+2020/01/29-12:20:37.281 111a3 Delete type=0 #19
+2020/01/29-14:00:16.904 111a3 Level-0 table #24: started
+2020/01/29-14:00:16.938 111a3 Level-0 table #24: 16969 bytes OK
+2020/01/29-14:00:17.081 111a3 Delete type=0 #21
+2020/01/29-14:00:17.083 111a3 Compacting 4@0 + 1@1 files
+2020/01/29-14:00:17.162 111a3 Generated table #25@0: 355 keys, 168805 bytes
+2020/01/29-14:00:17.163 111a3 Compacted 4@0 + 1@1 files => 168805 bytes
+2020/01/29-14:00:17.248 111a3 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/01/29-14:00:17.250 111a3 Delete type=2 #16
+2020/01/29-14:00:17.250 111a3 Delete type=2 #20
+2020/01/29-14:00:17.250 111a3 Delete type=2 #22
+2020/01/29-14:00:17.250 111a3 Delete type=2 #18
+2020/01/29-14:00:17.250 111a3 Delete type=2 #24
+2020/01/30-12:15:21.207 111a3 Level-0 table #27: started
+2020/01/30-12:15:21.243 111a3 Level-0 table #27: 17601 bytes OK
+2020/01/30-12:15:21.346 111a3 Delete type=0 #23

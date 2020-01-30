@@ -1,0 +1,28 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_title": "ClassLink OneClick Extension"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "detection.js", "jquery-2.1.4.min.js", "crypto_aes.js", "injected.js" ],
+      "matches": [ "*://*/*" ]
+   } ],
+   "content_security_policy": "script-src 'self'; object-src 'self'",
+   "description": "ClassLink OneClick Extension",
+   "icons": {
+      "128": "images/128x128.png",
+      "16": "images/16x16.png",
+      "48": "images/48x48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn/zbaibOIic9KH3Rkz/vp8P3z60FGqVtGUUTBVVdktkMMT+xooOEW126gfean6bx4TNVaALIi3zFb3wcEyx32r5tPXvdVO58e7nPo1QO5xXG82WJgq0aWpdKvLr2e+4Bfqo5KxTTvotpjUscsYHz/ASJty+OfDekd3WxMS489NPOB+l/nnDF6WkwmhIDZGx6SGsciW9iWHAiwHYwhJATHqCnqlEGl+g+ht/K97nhk9IuAikZaE5lLR5RuWrffSDx5n2O8tCy2cykMuWuMOhaekvYMviLheh/6tqszhj9TdaKfcW+w/bEU1ZqzxJoCYA5ylWDFH6t/+vFKnz77WcQPQIDAQAB",
+   "manifest_version": 2,
+   "name": "ClassLink OneClick Extension",
+   "permissions": [ "activeTab", "tabs", "https://ajax.googleapis.com/", "https://*.classlink.com/*", "http://*.classlink.com/*", "cookies", "webNavigation", "storage", "idle" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "8.9",
+   "web_accessible_resources": [ "images/*" ]
+}

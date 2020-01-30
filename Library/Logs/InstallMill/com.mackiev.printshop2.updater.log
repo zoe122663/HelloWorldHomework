@@ -1,0 +1,633 @@
+
+
+******************************************************
+Date/Time	: 2012-05-17 13:05:59 +0000
+Host		: hs-fl-0003356.local
+Path		: /Volumes/The Print Shop 2 v2.0.11 Updater/The Print Shop 2 v2.0.11 Updater.app/Contents/MacOS/The Print Shop 2 v2.0.11 Updater
+Install Engine	: 325.3
+System	: 10.7.3
+*******************************************************
+2012-05-17 13:05:58 +0000| >>$LAUNCH_PATH = "/Volumes/The Print Shop 2 v2.0.11 Updater/The Print Shop 2 v2.0.11 Updater.app"
+2012-05-17 13:05:59 +0000| >>$MILL_VER = "325.3"
+2012-05-17 13:05:59 +0000| [[UI entered Mill Appearance Window (Mill Installer UI)]]
+2012-05-17 13:05:59 +0000| [[UI entered Mill Welcome (Welcome Screen)]]
+2012-05-17 13:06:00 +0000| >>$PROD_NAME = "The Print Shop 2"
+2012-05-17 13:06:00 +0000| >>$PROD_DISPLAY_NAME = "The Print Shop 2"
+2012-05-17 13:06:00 +0000| >>$PROD_VER = "693"
+2012-05-17 13:06:00 +0000| >>$PROD_VER_READABLE = "0.0"
+2012-05-17 13:06:00 +0000| >>$PROD_URL = "www.mackiev.com"
+2012-05-17 13:06:00 +0000| >>$INST_NAME = "The Print Shop 2 Updater"
+2012-05-17 13:06:00 +0000| >>$INST_DISPLAY_NAME = "The Print Shop 2 Updater"
+2012-05-17 13:06:00 +0000| >>$INST_URL = "www.mackiev.com"
+2012-05-17 13:06:00 +0000| >>$ROOT_VOL_NAME = "Macintosh HD"
+2012-05-17 13:06:00 +0000| >>$SYS_ARCH = "intel"
+2012-05-17 13:06:00 +0000| >>$PRIM_LOC = "$TPS_PATH"
+2012-05-17 13:06:01 +0000| [[UI exited Mill Welcome (Welcome Screen)]]
+2012-05-17 13:06:01 +0000| [[UI entered Fork Step (Installer NOT runs)]]
+2012-05-17 13:06:01 +0000| C H E C K I N G   Launched App  (null) NOT RUNS ...
+2012-05-17 13:06:02 +0000| >>$FORBIDDEN_APP_NAME = "(null)"
+2012-05-17 13:06:02 +0000| P A S S E D
+2012-05-17 13:06:02 +0000| [[UI exited Fork Step (Installer NOT runs)]]
+2012-05-17 13:06:02 +0000| [[UI entered Fork Step (-- Choose TPS2 Location 1 --)]]
+2012-05-17 13:06:02 +0000| C H E C K I N G   Script  EXEC:"chooseLocation.sh" RET=0 ...
+2012-05-17 13:06:02 +0000| >>$CUR_LOC = "(null)"
+2012-05-17 13:06:02 +0000| >>$CUR_VOL_NAME = "(null)"
+2012-05-17 13:06:02 +0000| >>$SCRIPT_STDOUT = "<LISTEN>TPS_PATH=/Applications/The Print Shop 2.app</LISTEN>
+"
+2012-05-17 13:06:02 +0000| >>$TPS_PATH = "/Applications/The Print Shop 2.app"
+2012-05-17 13:06:02 +0000| P A S S E D
+2012-05-17 13:06:02 +0000| [[UI exited Fork Step (-- Choose TPS2 Location 1 --)]]
+2012-05-17 13:06:02 +0000| [[UI entered Fork Step (Check Bundle Permissions)]]
+2012-05-17 13:06:02 +0000| C H E C K I N G   Script  EXEC:"checkAppPerm.sh" RET=0 ...
+2012-05-17 13:06:02 +0000| >>$CUR_LOC = "/Applications/The Print Shop 2.app"
+2012-05-17 13:06:02 +0000| >>$CUR_VOL_NAME = "Macintosh HD"
+2012-05-17 13:06:02 +0000| >>$SCRIPT_STDOUT = ""
+2012-05-17 13:06:02 +0000| >>$SCRIPT_RET_CODE = "0"
+2012-05-17 13:06:02 +0000| P A S S E D
+2012-05-17 13:06:02 +0000| [[UI exited Fork Step (Check Bundle Permissions)]]
+2012-05-17 13:06:02 +0000| [[UI entered Fork Step (Verify Bundle Identifier)]]
+2012-05-17 13:06:02 +0000| C H E C K I N G   Bundle Info  BNDL_KEY CFBundleIdentifier==com.mackiev.printshop2 ...
+2012-05-17 13:06:02 +0000| >>$REQ_BNDL_INFO = "com.mackiev.printshop2"
+2012-05-17 13:06:02 +0000| >>$BNDL_INFO = "com.mackiev.printshop2"
+2012-05-17 13:06:02 +0000| P A S S E D
+2012-05-17 13:06:02 +0000| [[UI exited Fork Step (Verify Bundle Identifier)]]
+2012-05-17 13:06:02 +0000| [[UI entered Fork Step (Verify Not AppStore Build)]]
+2012-05-17 13:06:02 +0000| C H E C K I N G   Composite Condition  !(BNDL_KEY LSApplicationCategoryType==public.app-category.productivity) ...
+2012-05-17 13:06:02 +0000| 	C H E C K I N G   Bundle Info  BNDL_KEY LSApplicationCategoryType==public.app-category.productivity ...
+2012-05-17 13:06:02 +0000| CHECK BUNDLE: Bundle key LSApplicationCategoryType not found
+2012-05-17 13:06:02 +0000| 	F A I L E D
+2012-05-17 13:06:02 +0000| P A S S E D
+2012-05-17 13:06:02 +0000| >>$CHK_RESULT = "YES"
+2012-05-17 13:06:02 +0000| [[UI exited Fork Step (Verify Not AppStore Build)]]
+2012-05-17 13:06:02 +0000| [[UI entered Fork Step (Check Version)]]
+2012-05-17 13:06:02 +0000| C H E C K I N G   Composite Condition  (BNDL_KEY CFBundleVersion==452)or(BNDL_KEY CFBundleVersion==456)or(BNDL_KEY CFBundleVersion==607)or(BNDL_KEY CFBundleVersion==616)or(BNDL_KEY CFBundleVersion==621)or((BNDL_KEY CFBundleVersion>=629)and(BNDL_KEY CFBundleVersion<=693)) ...
+2012-05-17 13:06:02 +0000| 	C H E C K I N G   Bundle Info  BNDL_KEY CFBundleVersion==452 ...
+2012-05-17 13:06:02 +0000| >>$REQ_BNDL_INFO = "452"
+2012-05-17 13:06:02 +0000| >>$BNDL_INFO = "689"
+2012-05-17 13:06:02 +0000| 	F A I L E D
+2012-05-17 13:06:02 +0000| 	C H E C K I N G   Bundle Info  BNDL_KEY CFBundleVersion==456 ...
+2012-05-17 13:06:02 +0000| >>$REQ_BNDL_INFO = "456"
+2012-05-17 13:06:02 +0000| 	F A I L E D
+2012-05-17 13:06:02 +0000| 	C H E C K I N G   Bundle Info  BNDL_KEY CFBundleVersion==607 ...
+2012-05-17 13:06:02 +0000| >>$REQ_BNDL_INFO = "607"
+2012-05-17 13:06:02 +0000| 	F A I L E D
+2012-05-17 13:06:02 +0000| 	C H E C K I N G   Bundle Info  BNDL_KEY CFBundleVersion==616 ...
+2012-05-17 13:06:02 +0000| >>$REQ_BNDL_INFO = "616"
+2012-05-17 13:06:02 +0000| 	F A I L E D
+2012-05-17 13:06:02 +0000| 	C H E C K I N G   Bundle Info  BNDL_KEY CFBundleVersion==621 ...
+2012-05-17 13:06:02 +0000| >>$REQ_BNDL_INFO = "621"
+2012-05-17 13:06:02 +0000| 	F A I L E D
+2012-05-17 13:06:02 +0000| 	C H E C K I N G   Composite Condition  (BNDL_KEY CFBundleVersion>=629)and(BNDL_KEY CFBundleVersion<=693) ...
+2012-05-17 13:06:02 +0000| 		C H E C K I N G   Bundle Info  BNDL_KEY CFBundleVersion>=629 ...
+2012-05-17 13:06:02 +0000| >>$REQ_BNDL_INFO = "629"
+2012-05-17 13:06:02 +0000| 		P A S S E D
+2012-05-17 13:06:02 +0000| 		C H E C K I N G   Bundle Info  BNDL_KEY CFBundleVersion<=693 ...
+2012-05-17 13:06:02 +0000| >>$REQ_BNDL_INFO = "693"
+2012-05-17 13:06:02 +0000| 		P A S S E D
+2012-05-17 13:06:02 +0000| 	P A S S E D
+2012-05-17 13:06:02 +0000| P A S S E D
+2012-05-17 13:06:02 +0000| [[UI exited Fork Step (Check Version)]]
+2012-05-17 13:06:02 +0000| [[UI entered Fork Step (Check if TPS2 Running)]]
+2012-05-17 13:06:02 +0000| C H E C K I N G   Launched App (Path)  App (Path) NOT RUNS ...
+2012-05-17 13:06:02 +0000| P A S S E D
+2012-05-17 13:06:03 +0000| [[UI exited Fork Step (Check if TPS2 Running)]]
+2012-05-17 13:06:03 +0000| [[UI entered Fork Step (Check Free Space)]]
+2012-05-17 13:06:03 +0000| C H E C K I N G   Disk Space  DISK_SPACE>40.00 MB ...
+2012-05-17 13:06:03 +0000| >>$FREE_SPACE = "100.1 GB"
+2012-05-17 13:06:03 +0000| >>$REQ_FREE_SPACE = "40 MB"
+2012-05-17 13:06:03 +0000| P A S S E D
+2012-05-17 13:06:03 +0000| PACK The Print Shop 2 Updater Package  TYPE: 0 STATE: 1
+2012-05-17 13:06:03 +0000| TEMP CREATED FOR TASK: Remove Metadata Plugins
+2012-05-17 13:06:03 +0000| TEMP CREATED FOR TASK: Update Bundle
+2012-05-17 13:06:03 +0000| TEMP CREATED FOR TASK: fix_app_icon.sh
+2012-05-17 13:06:03 +0000| TEMP CREATED FOR TASK: Finder Notify Bundle
+2012-05-17 13:06:03 +0000| TEMP CREATED FOR TASK: postaction.sh
+2012-05-17 13:06:03 +0000| TEMP CREATED FOR TASK: Finder Notify QuickLook
+2012-05-17 13:06:03 +0000| TEMP CREATED FOR TASK: Finder Notify Spotlight
+2012-05-17 13:06:03 +0000| TEMP CREATED FOR TASK: Remove Unnecessary Files
+2012-05-17 13:06:03 +0000| GUI RUNS WITH PERM_LEVEL: 2
+2012-05-17 13:06:03 +0000| TASK Remove Metadata Plugins REQUIRES PERMISSIONS: 2
+2012-05-17 13:06:03 +0000| TASK Update Bundle REQUIRES PERMISSIONS: 1
+2012-05-17 13:06:03 +0000| TASK fix_app_icon.sh REQUIRES PERMISSIONS: 2
+2012-05-17 13:06:03 +0000| TASK Finder Notify Bundle REQUIRES PERMISSIONS: 1
+2012-05-17 13:06:03 +0000| TASK postaction.sh REQUIRES PERMISSIONS: 1
+2012-05-17 13:06:03 +0000| TASK Finder Notify QuickLook REQUIRES PERMISSIONS: 1
+2012-05-17 13:06:03 +0000| TASK Finder Notify Spotlight REQUIRES PERMISSIONS: 1
+2012-05-17 13:06:03 +0000| TASK Remove Unnecessary Files REQUIRES PERMISSIONS: 2
+2012-05-17 13:06:03 +0000| [[UI exited Fork Step (Check Free Space)]]
+2012-05-17 13:06:03 +0000| [[UI entered Mill Install Step (Install TPS2 Package)]]
+2012-05-17 13:06:03 +0000| 43.45 MBytes to Install
+2012-05-17 13:06:03 +0000| 
+*** INSTALLATION PROCESS (8 tasks) STARTED AT 2012-05-17 13:06:03 +0000***
+
+2012-05-17 13:06:03 +0000| EXECUTING SCRIPT TASK: Remove Metadata Plugins EXECUTABLE: cleanCommonLibrary.sh
+2012-05-17 13:06:03 +0000| C H E C K I N G   OS Version  OS_VER>=10.4.0 ...
+2012-05-17 13:06:03 +0000| >>$REQ_SYS_VER = "10.4.0"
+2012-05-17 13:06:03 +0000| >>$SYS_VER = "10.7.3"
+2012-05-17 13:06:03 +0000| P A S S E D
+2012-05-17 13:06:03 +0000| >>$CUR_LOC = ""
+2012-05-17 13:06:03 +0000| >>$CUR_VOL_NAME = "(null)"
+2012-05-17 13:06:03 +0000| EXECUTING PACK TASK Update Bundle OF SIZE 45561500 AT PATH /Applications/The Print Shop 2.app/Contents
+2012-05-17 13:06:03 +0000| >>$CUR_LOC = "/Applications/The Print Shop 2.app/Contents"
+2012-05-17 13:06:03 +0000| >>$CUR_DEST_LOC = "/Applications/The Print Shop 2.app"
+2012-05-17 13:06:03 +0000| >>$CUR_VOL_NAME = "Macintosh HD"
+2012-05-17 13:06:03 +0000| checking entry at /Applications/The Print Shop 2.app/Contents for lock recursively...
+2012-05-17 13:06:04 +0000| OVERWRITE: 
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/CorrectSpell.framework
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/CorrectSpell.framework/Versions
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/CorrectSpell.framework/Versions/A
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/CorrectSpell.framework/Versions/A/CorrectSpell
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/CorrectSpell.framework/Versions/A/Resources
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/CorrectSpell.framework/Versions/A/Resources/Info.plist
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/PowerPlant.framework
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/PowerPlant.framework/Versions
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/PowerPlant.framework/Versions/A
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/PowerPlant.framework/Versions/A/PowerPlant
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/PowerPlant.framework/Versions/A/Resources
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/PowerPlant.framework/Versions/A/Resources/Info.plist
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/PSApplication.framework
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/PSApplication.framework/Versions
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/PSApplication.framework/Versions/A
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/PSApplication.framework/Versions/A/PSApplication
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/PSApplication.framework/Versions/A/Resources
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/PSApplication.framework/Versions/A/Resources/Info.plist
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/PSFoundation.framework
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/PSFoundation.framework/Versions
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/PSFoundation.framework/Versions/A
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/PSFoundation.framework/Versions/A/PSFoundation
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/PSFoundation.framework/Versions/A/Resources
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/PSFoundation.framework/Versions/A/Resources/Info.plist
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/SMKAntiCrashFontOperations.framework
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/SMKAntiCrashFontOperations.framework/Versions
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/SMKAntiCrashFontOperations.framework/Versions/A
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/SMKAntiCrashFontOperations.framework/Versions/A/Resources
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/SMKAntiCrashFontOperations.framework/Versions/A/Resources/ACFOPerformer
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/SMKAntiCrashFontOperations.framework/Versions/A/Resources/Info.plist
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/SMKAntiCrashFontOperations.framework/Versions/A/SMKAntiCrashFontOperations
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/SMKCheckForUpdates.framework
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/SMKCheckForUpdates.framework/Versions
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/SMKCheckForUpdates.framework/Versions/A
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/SMKCheckForUpdates.framework/Versions/A/SMKCheckForUpdates
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/SMKImaging.framework
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/SMKImaging.framework/Versions
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/SMKImaging.framework/Versions/A
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/SMKImaging.framework/Versions/A/Resources
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/SMKImaging.framework/Versions/A/Resources/Info.plist
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/SMKImaging.framework/Versions/A/SMKImaging
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/SMKPrinting.framework
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/SMKPrinting.framework/Versions
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/SMKPrinting.framework/Versions/A
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/SMKPrinting.framework/Versions/A/Resources
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/SMKPrinting.framework/Versions/A/Resources/Info.plist
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/SMKPrinting.framework/Versions/A/SMKPrinting
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/WMFCore.framework
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/WMFCore.framework/_CodeSignature
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/WMFCore.framework/_CodeSignature/CodeResources
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/WMFCore.framework/CodeResources
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/WMFCore.framework/Versions
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/WMFCore.framework/Versions/A
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/WMFCore.framework/Versions/A/Resources
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/WMFCore.framework/Versions/A/Resources/Info.plist
+2012-05-17 13:06:04 +0000| OVERWRITE: Frameworks/WMFCore.framework/Versions/A/WMFCore
+2012-05-17 13:06:04 +0000| OVERWRITE: Info.plist
+2012-05-17 13:06:04 +0000| OVERWRITE: Library
+2012-05-17 13:06:04 +0000| OVERWRITE: Library/QuickLook
+2012-05-17 13:06:04 +0000| OVERWRITE: Library/QuickLook/The Print Shop.qlgenerator
+2012-05-17 13:06:04 +0000| OVERWRITE: Library/QuickLook/The Print Shop.qlgenerator/Contents
+2012-05-17 13:06:04 +0000| OVERWRITE: Library/QuickLook/The Print Shop.qlgenerator/Contents/Info.plist
+2012-05-17 13:06:04 +0000| OVERWRITE: Library/QuickLook/The Print Shop.qlgenerator/Contents/MacOS
+2012-05-17 13:06:04 +0000| OVERWRITE: Library/QuickLook/The Print Shop.qlgenerator/Contents/MacOS/The Print Shop
+2012-05-17 13:06:04 +0000| OVERWRITE: Library/QuickLook/The Print Shop.qlgenerator/Contents/Resources
+2012-05-17 13:06:04 +0000| OVERWRITE: Library/QuickLook/The Print Shop.qlgenerator/Contents/Resources/English.lproj
+2012-05-17 13:06:04 +0000| OVERWRITE: Library/QuickLook/The Print Shop.qlgenerator/Contents/Resources/English.lproj/InfoPlist.strings
+2012-05-17 13:06:04 +0000| OVERWRITE: Library/Spotlight
+2012-05-17 13:06:04 +0000| OVERWRITE: Library/Spotlight/The Print Shop.mdimporter
+2012-05-17 13:06:04 +0000| OVERWRITE: Library/Spotlight/The Print Shop.mdimporter/Contents
+2012-05-17 13:06:04 +0000| OVERWRITE: Library/Spotlight/The Print Shop.mdimporter/Contents/Info.plist
+2012-05-17 13:06:04 +0000| OVERWRITE: Library/Spotlight/The Print Shop.mdimporter/Contents/MacOS
+2012-05-17 13:06:04 +0000| OVERWRITE: Library/Spotlight/The Print Shop.mdimporter/Contents/MacOS/The Print Shop
+2012-05-17 13:06:04 +0000| OVERWRITE: Library/Spotlight/The Print Shop.mdimporter/Contents/Resources
+2012-05-17 13:06:04 +0000| OVERWRITE: Library/Spotlight/The Print Shop.mdimporter/Contents/Resources/English.lproj
+2012-05-17 13:06:04 +0000| OVERWRITE: Library/Spotlight/The Print Shop.mdimporter/Contents/Resources/English.lproj/InfoPlist.strings
+2012-05-17 13:06:04 +0000| OVERWRITE: Library/Spotlight/The Print Shop.mdimporter/Contents/Resources/English.lproj/schema.strings
+2012-05-17 13:06:04 +0000| OVERWRITE: Library/Spotlight/The Print Shop.mdimporter/Contents/Resources/ProjectTypes.plist
+2012-05-17 13:06:04 +0000| OVERWRITE: Library/Spotlight/The Print Shop.mdimporter/Contents/Resources/schema.xml
+2012-05-17 13:06:04 +0000| OVERWRITE: MacOS
+2012-05-17 13:06:04 +0000| OVERWRITE: MacOS/The Print Shop 2
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Calendar.component
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Calendar.component/Versions
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Calendar.component/Versions/A
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Calendar.component/Versions/A/Calendar
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Calendar.component/Versions/A/Resources
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Calendar.component/Versions/A/Resources/Info.plist
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Graphic.component
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Graphic.component/Versions
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Graphic.component/Versions/A
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Graphic.component/Versions/A/Graphic
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Graphic.component/Versions/A/Resources
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Graphic.component/Versions/A/Resources/Info.plist
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Group.component
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Group.component/Versions
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Group.component/Versions/A
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Group.component/Versions/A/Group
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Group.component/Versions/A/Resources
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Group.component/Versions/A/Resources/Info.plist
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Headline.component
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Headline.component/Versions
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Headline.component/Versions/A
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Headline.component/Versions/A/Headline
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Headline.component/Versions/A/Resources
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Headline.component/Versions/A/Resources/Info.plist
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Image.component
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Image.component/Versions
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Image.component/Versions/A
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Image.component/Versions/A/Image
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Image.component/Versions/A/Resources
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Image.component/Versions/A/Resources/Info.plist
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Path.component
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Path.component/Versions
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Path.component/Versions/A
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Path.component/Versions/A/Path
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Path.component/Versions/A/Resources
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Path.component/Versions/A/Resources/Info.plist
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Text.component
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Text.component/Versions
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Text.component/Versions/A
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Text.component/Versions/A/Resources
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Text.component/Versions/A/Resources/Info.plist
+2012-05-17 13:06:05 +0000| OVERWRITE: PlugIns/Text.component/Versions/A/Text
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/AddressBookBundle.bundle
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/AddressBookBundle.bundle/Contents
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/AddressBookBundle.bundle/Contents/Info.plist
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/AddressBookBundle.bundle/Contents/MacOS
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/AddressBookBundle.bundle/Contents/MacOS/AddressBookBundle
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/ADJCOL.tiff
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/AppIcon.icns
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/Book.icns
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/DefaultPrefs.plist
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/EI_BF_BRGHT.tiff
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/EI_BF_DARK.tiff
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/EI_BF_SHRP.tiff
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/EI_BF_SOFT.tiff
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/EI_SF_BLUR.tiff
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/EI_SF_SHRP.tiff
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Alert.strings
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/IDVDImport.strings
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/InfoPlist.strings
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Localizable.strings
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Localized.rsrc
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/PageSetup.strings
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/PE040409.strings
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Acquire_Cmd.htm
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Adding_Banner_Text.htm
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Additional_Features.htm
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Alignment.htm
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Alpha_Channel.htm
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Apply_an_Special_Effect_Dia.htm
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Arrange_Menu.htm
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Avery_Matching.htm
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Booklet_layout.htm
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Calendar_Grid_Style_Dialog_.htm
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/CD_diameters.htm
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Change_Year_Month_Week_or~1.htm
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Create_a_Logo_Dialog_Box.htm
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Create_a_Number_Dialog_Box.htm
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Create_a_Seal_Dialog_Box.htm
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Create_a_Timepiece_Dialog_B.htm
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Create_a_Watermark_Dialog_B.htm
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Create_an_Initial_Cap_Dialo.htm
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Crop_Orientation.htm
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Direct_CD_print.htm
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Edit_Address_List_Dialog_Bo.htm
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Edit_Custom_List_Dialog_Box.htm
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Edit_Menu.htm
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Editing_Images.htm
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/12PCDBX1_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/14PCDBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/ADCLRBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/Address_List.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/alert2.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/ALIGNBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/ALYBOXBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/BANLTHBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/booklet_lay.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/CALGRDBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/CD_Diameter.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/CLRPALEX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/CRDSETBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/CreateAheadline.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/CRPPTHBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/CRPPTHCP_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/cust_p_size.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/Design_Desk.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/DRPSDBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/DRPSWCST_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/EDCTLTBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/EDDAY_WEEK.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/EDDAYBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/EDGESOFT_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/EDGESPEC_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/EDHOURBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/Edit_grid_sh.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/eff_tlb.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/export_resol.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/H2OMRBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/HDCUSTBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/HDDPTHBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/HDOUTLBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/HDPOSBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/HDPROPBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/HDRDMDBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/HDSHPBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/IMPICALEV.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/IMPIMBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/IMPITUNES.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/INCAPBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/insert_cust_list.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/INSYMBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/Layout.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/Ln_StyleDialog.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/LOGOBOX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/NEWPRJBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/NUMBBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/OBJTLBR_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/PH_PAGES_BX.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/PHOAEBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/PHOBFBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/PHOFFBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/PRBANRBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/PRBIZCBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/PRCALNBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/PRCERTBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/PREFAPP_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/PREFLAY_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/PRENVBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/PRENVPOS_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/PRFXC2.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/Print_Booklet.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/Print_CDs_and_Cases.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/Print_Gift_Tag.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/Print_Newsletter.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/PrintShop16_16.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/PRLABLBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/PRLHDBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/PRN_NOTECARD.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/PRNTPDBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/PROLGRBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/PRPAMPBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/PRPHO1BX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/PRPOSTBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/PRPSCRBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/PRSIGNBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/Q_and_VBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/QVSRCHBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/RADGLWBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/RADGLWCT_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/ROTACMD_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/SCALEBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/SE_Outline.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/SE_Trans.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/SEALBOX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/SELADFBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/SELBCKBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/SELBORBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/SELCALBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/SELCSTBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/SELFRABX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/SELFRM2.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/SELGRBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/SELGRIPH.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/SELGRSRB_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/SELINDBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/SELLAYBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/SELLINBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/SELMINBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/SELMTHDB_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/SELQSLBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/SelShDialog.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/SELTHMBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/SIGBOX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/SLBKDPBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/SRPBKBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/SUB_DIAL.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/TEXPALBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/TIMEPBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/TXTBKSBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/TXTRGRBX_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/TXTTLBR_BMP.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/Update.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/gfx/WYSIW_fonts.png
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Import_iCal_Events.htm
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Import_iTunes_Plist.htm
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Insert_Address_List_Field.htm
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Insert_Field_Dialog_Box.htm
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Insert_Graphic_Button.htm
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Insert_Menu.htm
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Open_Previous_version.htm
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Preferences_Dialog_Box.htm
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Printing.htm
+2012-05-17 13:06:05 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Printing_CDs_and_Cases.htm
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Printing_Your_Greeting_Card.htm
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Project_type.htm
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Ruler_Grid_Guides.htm
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Select_a_Calendar_Type_Dial.htm
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Select_a_Decorative_Mini_bo.htm
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Select_a_Format_Dialog_Box.htm
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Select_a_Graphic_Import.htm
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Select_a_Graphic_iPhoto.htm
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Select_a_Method_Dialog_Box.htm
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Select_a_Panel_Border_Dialo.htm
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Select_a_Quote_or_Verse_Dia.htm
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Select_Address_Book_Entry.htm
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Send.htm
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Text_Block_Shape_Dialog_Box.htm
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Tint.htm
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/WhatsNew.htm
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Windows_compat.htm
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/App Help/Renaissance_mac1/Working_with_Text_Blocks.htm
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/Content.htm
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/css
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/css/cps_task_st.css
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/Print Shop Help idx
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/Print Shop Help/Print Shop Help.helpindex
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/PSCocoaExportPanelAccessoryView.nib
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/PSCocoaExportPanelAccessoryView.nib/classes.nib
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/PSCocoaExportPanelAccessoryView.nib/info.nib
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/PSCocoaExportPanelAccessoryView.nib/keyedobjects.nib
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/PSCocoaOpenPanelAccessoryView.nib
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/PSCocoaOpenPanelAccessoryView.nib/classes.nib
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/PSCocoaOpenPanelAccessoryView.nib/info.nib
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/PSCocoaOpenPanelAccessoryView.nib/keyedobjects.nib
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/PSExportDocumentAccessoryView.nib
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/PSExportDocumentAccessoryView.nib/classes.nib
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/PSExportDocumentAccessoryView.nib/info.nib
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/PSExportDocumentAccessoryView.nib/keyedobjects.nib
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/PSSaveProgressWindow.nib
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/PSSaveProgressWindow.nib/designable.nib
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/PSSaveProgressWindow.nib/keyedobjects.nib
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/ScrapbookConversionDlg.nib
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/ScrapbookConversionDlg.nib/classes.nib
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/ScrapbookConversionDlg.nib/info.nib
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/English.lproj/ScrapbookConversionDlg.nib/keyedobjects.nib
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/Gallerey.icns
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/iCalendarImport.bundle
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/iCalendarImport.bundle/Contents
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/iCalendarImport.bundle/Contents/Info.plist
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/iCalendarImport.bundle/Contents/MacOS
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/iCalendarImport.bundle/Contents/MacOS/iCalendarImport
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/iCalendarImport.bundle/Contents/Resources
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/iCalendarImport.bundle/Contents/Resources/English.lproj
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/iCalendarImport.bundle/Contents/Resources/English.lproj/Localizable.strings
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/iDVDDocument.icns
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/IDVDParser.bundle
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/IDVDParser.bundle/Contents
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/IDVDParser.bundle/Contents/Info.plist
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/IDVDParser.bundle/Contents/MacOS
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/IDVDParser.bundle/Contents/MacOS/IDVDParser
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/IDVDParser.bundle/Contents/Resources
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/IDVDParser.bundle/Contents/Resources/English.lproj
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/IDVDParser.bundle/Contents/Resources/English.lproj/Localizable.strings
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/InnerOuterPresets.plist
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/ITParser.bundle
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/ITParser.bundle/Contents
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/ITParser.bundle/Contents/Info.plist
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/ITParser.bundle/Contents/MacOS
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/ITParser.bundle/Contents/MacOS/ITParser
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/ITParser.bundle/Contents/Resources
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/ITParser.bundle/Contents/Resources/English.lproj
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/ITParser.bundle/Contents/Resources/English.lproj/Localizable.strings
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/iTunesAudioLibrary.bundle
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/iTunesAudioLibrary.bundle/Contents
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/iTunesAudioLibrary.bundle/Contents/Info.plist
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/iTunesAudioLibrary.bundle/Contents/MacOS
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/iTunesAudioLibrary.bundle/Contents/MacOS/iTunesAudioLibrary
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/Large.icns
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/List.icns
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/PDEPrintDialog.plugin
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/PDEPrintDialog.plugin/Contents
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/PDEPrintDialog.plugin/Contents/Info.plist
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/PDEPrintDialog.plugin/Contents/MacOS
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/PDEPrintDialog.plugin/Contents/MacOS/PDEPrintDialog
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/ProjectPicker.rsrc
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/PS Projects
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/PS Projects/PSBusinessCards.project
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/PS Projects/PSBusinessCards.project/Contents
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/PS Projects/PSBusinessCards.project/Contents/Resources
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/PS Projects/PSBusinessCards.project/Contents/Resources/PSBusinessCards.dat
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/PS Projects/PSEnvelopes.project
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/PS Projects/PSEnvelopes.project/Contents
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/PS Projects/PSEnvelopes.project/Contents/Resources
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/PS Projects/PSEnvelopes.project/Contents/Resources/English.lproj
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/PS Projects/PSEnvelopes.project/Contents/Resources/English.lproj/Localizable.strings
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/PS Projects/PSEnvelopes.project/Contents/Resources/PSEnvelopes.dat
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/PS Projects/PSGiftTags.project
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/PS Projects/PSGiftTags.project/Contents
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/PS Projects/PSGiftTags.project/Contents/Resources
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/PS Projects/PSGiftTags.project/Contents/Resources/English.lproj
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/PS Projects/PSGiftTags.project/Contents/Resources/English.lproj/ProjectNames.strings
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/PS Projects/PSGiftTags.project/Contents/Resources/PSGiftTags.dat
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/PS Projects/PSPostCards.project
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/PS Projects/PSPostCards.project/Contents
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/PS Projects/PSPostCards.project/Contents/Resources
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/PS Projects/PSPostCards.project/Contents/Resources/PSPostCards.dat
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/PS_damaged-image.png
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/QCEffects
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/QCEffects/Strong Kaleidoscope.qtz
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/QTComponents
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/QTComponents/EPSCodec.component
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/QTComponents/EPSCodec.component/Contents
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/QTComponents/EPSCodec.component/Contents/Info.plist
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/QTComponents/EPSCodec.component/Contents/MacOS
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/QTComponents/EPSCodec.component/Contents/MacOS/EPSCodec
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/QTComponents/EPSCodec.component/Contents/Resources
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/QTComponents/EPSCodec.component/Contents/Resources/EPSCodec.rsrc
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/QTComponents/EPSImporter.component
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/QTComponents/EPSImporter.component/Contents
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/QTComponents/EPSImporter.component/Contents/Info.plist
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/QTComponents/EPSImporter.component/Contents/MacOS
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/QTComponents/EPSImporter.component/Contents/MacOS/EPSImporter
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/QTComponents/EPSImporter.component/Contents/Resources
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/QTComponents/EPSImporter.component/Contents/Resources/EPSImporter.rsrc
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/QTComponents/WMFCodec.component
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/QTComponents/WMFCodec.component/Contents
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/QTComponents/WMFCodec.component/Contents/Info.plist
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/QTComponents/WMFCodec.component/Contents/MacOS
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/QTComponents/WMFCodec.component/Contents/MacOS/WMFCodec
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/QTComponents/WMFCodec.component/Contents/Resources
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/QTComponents/WMFCodec.component/Contents/Resources/WMFCodec.rsrc
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/QTComponents/WMFImporter.component
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/QTComponents/WMFImporter.component/Contents
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/QTComponents/WMFImporter.component/Contents/Info.plist
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/QTComponents/WMFImporter.component/Contents/MacOS
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/QTComponents/WMFImporter.component/Contents/MacOS/WMFImporter
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/QTComponents/WMFImporter.component/Contents/Resources
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/QTComponents/WMFImporter.component/Contents/Resources/WMFImporter.rsrc
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/RTFParser.bundle
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/RTFParser.bundle/Contents
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/RTFParser.bundle/Contents/Info.plist
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/RTFParser.bundle/Contents/MacOS
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/RTFParser.bundle/Contents/MacOS/RTFParser
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/ScrapbookOptimization.bundle
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/ScrapbookOptimization.bundle/Contents
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/ScrapbookOptimization.bundle/Contents/Info.plist
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/ScrapbookOptimization.bundle/Contents/MacOS
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/ScrapbookOptimization.bundle/Contents/MacOS/ScrapbookOptimization
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/ScrapbookOptimization.bundle/Contents/Resources
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/ScrapbookOptimization.bundle/Contents/Resources/English.lproj
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/ScrapbookOptimization.bundle/Contents/Resources/English.lproj/InfoPlist.strings
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/ScrapbookOptimization.bundle/Contents/Resources/English.lproj/SOModalWindow.nib
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/ScrapbookOptimization.bundle/Contents/Resources/English.lproj/SOModalWindow.nib/classes.nib
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/ScrapbookOptimization.bundle/Contents/Resources/English.lproj/SOModalWindow.nib/info.nib
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/ScrapbookOptimization.bundle/Contents/Resources/English.lproj/SOModalWindow.nib/keyedobjects.nib
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/ScrapbookOptimization.bundle/Contents/Resources/Project.xcconfig
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/SystemSpellCheck.bundle
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/SystemSpellCheck.bundle/Contents
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/SystemSpellCheck.bundle/Contents/Info.plist
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/SystemSpellCheck.bundle/Contents/MacOS
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/SystemSpellCheck.bundle/Contents/MacOS/SystemSpellCheck
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/The Print Shop 2.rsrc
+2012-05-17 13:06:06 +0000| OVERWRITE: Resources/TPSUpdates.plist
+2012-05-17 13:06:06 +0000| EXECUTING SCRIPT TASK: fix_app_icon.sh EXECUTABLE: fix_app_icon.sh
+2012-05-17 13:06:06 +0000| C H E C K I N G   OS Version  OS_VER<10.4.0 ...
+2012-05-17 13:06:06 +0000| F A I L E D
+2012-05-17 13:06:06 +0000| TASK CANCELED fix_app_icon.sh:(CONDITION FAILED TO CHECK)
+2012-05-17 13:06:06 +0000| EXECUTING FINDER NOTIFY TASK Finder Notify Bundle FOR PATH /Applications/The Print Shop 2.app
+2012-05-17 13:06:06 +0000| >>$CUR_LOC = "/Applications/The Print Shop 2.app"
+2012-05-17 13:06:06 +0000| EXECUTING SCRIPT TASK: postaction.sh EXECUTABLE: postaction.sh
+2012-05-17 13:06:06 +0000| EXECUTING FINDER NOTIFY TASK Finder Notify QuickLook FOR PATH /Applications/The Print Shop 2.app/Contents/Library/QuickLook/The Print Shop.qlgenerator
+2012-05-17 13:06:06 +0000| C H E C K I N G   OS Version  OS_VER>=10.5.0 ...
+2012-05-17 13:06:06 +0000| >>$REQ_SYS_VER = "10.5.0"
+2012-05-17 13:06:06 +0000| P A S S E D
+2012-05-17 13:06:06 +0000| >>$CUR_LOC = "/Applications/The Print Shop 2.app/Contents/Library/QuickLook/The Print Shop.qlgenerator"
+2012-05-17 13:06:06 +0000| LSRegister error# -10811 for path /Applications/The Print Shop 2.app/Contents/Library/QuickLook/The Print Shop.qlgenerator
+2012-05-17 13:06:06 +0000| EXECUTING FINDER NOTIFY TASK Finder Notify Spotlight FOR PATH /Applications/The Print Shop 2.app/Contents/Library/Spotlight/The Print Shop.mdimporter
+2012-05-17 13:06:06 +0000| C H E C K I N G   OS Version  OS_VER>=10.4.0 ...
+2012-05-17 13:06:06 +0000| >>$REQ_SYS_VER = "10.4.0"
+2012-05-17 13:06:06 +0000| P A S S E D
+2012-05-17 13:06:06 +0000| >>$CUR_LOC = "/Applications/The Print Shop 2.app/Contents/Library/Spotlight/The Print Shop.mdimporter"
+2012-05-17 13:06:06 +0000| LSRegister error# -10811 for path /Applications/The Print Shop 2.app/Contents/Library/Spotlight/The Print Shop.mdimporter
+2012-05-17 13:06:06 +0000| EXECUTING SCRIPT TASK: Remove Unnecessary Files EXECUTABLE: removeUnnecessaryFiles.sh
+2012-05-17 13:06:06 +0000| >>$CUR_LOC = "/Applications/The Print Shop 2.app"
+2012-05-17 13:06:06 +0000| 
+*** INSTALLATION FINISHED AT 2012-05-17 13:06:06 +0000***
+
+2012-05-17 13:06:06 +0000| TEMP CLEARED FOR TASK Remove Metadata Plugins: 
+2012-05-17 13:06:06 +0000| TEMP CLEARED FOR TASK Update Bundle: 
+2012-05-17 13:06:06 +0000| TEMP CLEARED FOR TASK fix_app_icon.sh: 
+2012-05-17 13:06:06 +0000| TEMP CLEARED FOR TASK Finder Notify Bundle: 
+2012-05-17 13:06:06 +0000| TEMP CLEARED FOR TASK postaction.sh: 
+2012-05-17 13:06:06 +0000| TEMP CLEARED FOR TASK Finder Notify QuickLook: 
+2012-05-17 13:06:06 +0000| TEMP CLEARED FOR TASK Finder Notify Spotlight: 
+2012-05-17 13:06:06 +0000| TEMP CLEARED FOR TASK Remove Unnecessary Files: 
+2012-05-17 13:06:06 +0000| [[UI exited Mill Install Step (Install TPS2 Package)]]
+2012-05-17 13:06:06 +0000| [[UI entered Mill Finish Step (Finish)]]
+2012-05-17 13:06:11 +0000| Launching application skipped
+2012-05-17 13:06:11 +0000| CLEANING INSTALLER TEMP AT /var/folders/tr/9gz9d75d5m72m8hw3c5_26fw0000gn/T/InstallMill/3C512195-35F3-42C3-B3EB-24D55E37D3B0...

@@ -1,0 +1,4 @@
+file:///Users/uc17606/Desktop/development/market/views/error.hbs {"mtime":1579870155303,"ctime":1579870155303,"size":74,"etag":"34h0rd18a2c","orphaned":false}
+<h1>{{Welcome to Stock Market Tracker}}</h1>
+<h2>{{error.status}}</h2>
+<pre>{{error.stack}}</pre>

@@ -1,0 +1,82 @@
+2020-01-24 07:41:46.473 ssoclient[3726:307] Enter main function.
+2020-01-24 07:41:49.440 ssoclient[3726:307] Enter applicationDidFinishLaunching.
+2020-01-24 07:41:49.441 ssoclient[3726:307] name is uc17606, full name is Weng, Zoe.
+2020-01-24 07:41:49.441 ssoclient[3726:307] Get netbios name via API, searchAll=0.
+2020-01-24 07:41:49.443 ssoclient[3726:307] Group[0] ID is 833305053
+2020-01-24 07:41:49.444 ssoclient[3726:307] Open directory query groups via UNIONCITYBOE.
+2020-01-24 07:41:49.452 ssoclient[3726:307] Generate node /Active Directory/UNIONCITYBOE/All Domains failed, error: Error Domain=com.apple.OpenDirectory Code=2100 "Connection failed to node '/Active Directory/UNIONCITYBOE/All Domains'" UserInfo={NSLocalizedDescription=Connection failed to node '/Active Directory/UNIONCITYBOE/All Domains', NSLocalizedFailureReason=Connection failed to the directory server.}.
+2020-01-24 07:41:49.452 ssoclient[3726:307] Get netbios name via API, searchAll=1.
+2020-01-24 07:41:49.581 ssoclient[3726:307] Group[0] ID is 833305053
+2020-01-24 07:41:49.606 ssoclient[3726:307] Group[1] ID is 12
+2020-01-24 07:41:49.613 ssoclient[3726:307] group name [everyone] should be filtered but not, ooooh NO.
+2020-01-24 07:41:49.637 ssoclient[3726:307] Group[2] ID is 62
+2020-01-24 07:41:49.670 ssoclient[3726:307] group name [netaccounts] should be filtered but not, ooooh NO.
+2020-01-24 07:41:49.700 ssoclient[3726:307] Group[3] ID is 654761252
+2020-01-24 07:41:49.724 ssoclient[3726:307] Group[4] ID is 911782377
+2020-01-24 07:41:49.753 ssoclient[3726:307] Group[5] ID is 149525514
+2020-01-24 07:41:49.784 ssoclient[3726:307] Group[6] ID is 701
+2020-01-24 07:41:49.817 ssoclient[3726:307] group name [com.apple.sharepoint.group.1] should be filtered but not, ooooh NO.
+2020-01-24 07:41:49.871 ssoclient[3726:307] Group[7] ID is 702
+2020-01-24 07:41:49.886 ssoclient[3726:307] group name [com.apple.sharepoint.group.2] should be filtered but not, ooooh NO.
+2020-01-24 07:41:49.916 ssoclient[3726:307] Group[8] ID is 765302912
+2020-01-24 07:41:49.965 ssoclient[3726:307] Groups via API are (
+    "Domain Users",
+    2022,
+    "JOS-2022",
+    "All Students",
+    "Content-Students"
+).
+2020-01-24 07:41:49.986 ssoclient[3726:307] Register listener stage is 7.
+2020-01-24 07:41:50.003 ssoclient[3726:307] NetBIOS name is already exist, UNIONCITYBOE.
+2020-01-24 07:41:50.003 ssoclient[3726:307] Open directory query groups via UNIONCITYBOE.
+2020-01-24 07:41:50.044 ssoclient[3726:307] result groups count is 0, error: (null).
+2020-01-24 07:41:50.134 ssoclient[3726:307] result groups count is 0, error: (null).
+2020-01-24 07:41:50.251 ssoclient[3726:307] result groups count is 0, error: (null).
+2020-01-24 07:41:50.312 ssoclient[3726:307] result groups count is 0, error: (null).
+2020-01-24 07:41:50.316 ssoclient[3726:307] get search result failed, error: (null).
+2020-01-24 07:41:50.316 ssoclient[3726:307] Groups via ODQuery are (
+    "JOS-2022",
+    2022,
+    "All Students",
+    "Content-Students",
+    "Domain Users",
+    SophosUser,
+    Users
+).
+2020-01-24 07:44:51.157 ssoclient[4643:307] Enter main function.
+2020-01-24 07:44:51.675 ssoclient[4643:307] Enter applicationDidFinishLaunching.
+2020-01-24 07:44:51.676 ssoclient[4643:307] name is uc17606, full name is Weng, Zoe.
+2020-01-24 07:44:51.676 ssoclient[4643:307] Get netbios name via API, searchAll=0.
+2020-01-24 07:44:51.697 ssoclient[4643:307] Group[0] ID is 833305053
+2020-01-24 07:44:51.699 ssoclient[4643:307] Open directory query groups via UNIONCITYBOE.
+2020-01-24 07:44:51.745 ssoclient[4643:307] result groups count is 0, error: (null).
+2020-01-24 07:44:51.822 ssoclient[4643:307] result groups count is 0, error: (null).
+2020-01-24 07:44:51.943 ssoclient[4643:307] result groups count is 0, error: (null).
+2020-01-24 07:44:51.971 ssoclient[4643:307] result groups count is 0, error: (null).
+2020-01-24 07:44:51.975 ssoclient[4643:307] get search result failed, error: (null).
+2020-01-24 07:44:52.002 ssoclient[4643:307] Groups via ODQuery are (
+    "JOS-2022",
+    2022,
+    "All Students",
+    "Content-Students",
+    "Domain Users",
+    SophosUser,
+    Users
+).
+2020-01-24 07:44:52.017 ssoclient[4643:307] Register listener stage is 7.
+2020-01-24 07:44:52.017 ssoclient[4643:307] NetBIOS name is already exist, UNIONCITYBOE.
+2020-01-24 07:44:52.017 ssoclient[4643:307] Open directory query groups via UNIONCITYBOE.
+2020-01-24 07:44:52.055 ssoclient[4643:307] result groups count is 0, error: (null).
+2020-01-24 07:44:52.156 ssoclient[4643:307] result groups count is 0, error: (null).
+2020-01-24 07:44:52.282 ssoclient[4643:307] result groups count is 0, error: (null).
+2020-01-24 07:44:52.305 ssoclient[4643:307] result groups count is 0, error: (null).
+2020-01-24 07:44:52.308 ssoclient[4643:307] get search result failed, error: (null).
+2020-01-24 07:44:52.309 ssoclient[4643:307] Groups via ODQuery are (
+    "JOS-2022",
+    2022,
+    "All Students",
+    "Content-Students",
+    "Domain Users",
+    SophosUser,
+    Users
+).

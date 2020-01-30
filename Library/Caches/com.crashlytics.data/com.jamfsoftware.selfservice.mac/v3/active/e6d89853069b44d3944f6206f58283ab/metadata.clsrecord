@@ -1,0 +1,4 @@
+{"identity":{"generator":"Crashlytics Mac SDK/3.10.1","build_version":"129","display_version":"3.10.1","api_key":"9ba0a5fb8b8b6cc82a9405504a5d331153d92071","started_at":1579869719,"session_id":"e6d89853069b44d3944f6206f58283ab","install_id":"397E1831-96C5-46B0-862E-84D67A104BDF","beta_token":null,"absolute_log_timestamps":true}}
+{"host":{"model":"MacBookAir7,1","machine":"x86_64","cpu":"Intel(R) Core(TM) i5-5250U CPU @ 1.60GHz","os_build_version":"18G103","os_display_version":"10.14.6","platform":"mac","locale":"en_US"}}
+{"application":{"bundle_id":"com.jamfsoftware.selfservice.mac","custom_bundle_id":null,"build_version":"10.9.0-t1544463445","display_version":"10.9.0","extension_id":null}}
+{"executable":{"architecture":"x86_64","uuid":"c5ecf3b39ae43a53923c1b29001d7459","base":4419321856,"size":2035712,"encrypted":false,"minimum_sdk_version":"10.10.0","built_sdk_version":"10.14.0"}}

@@ -1,0 +1,9 @@
+2020/01/28-13:21:28.706 15d6b Reusing MANIFEST /Users/uc17606/Library/Application Support/Google/Chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/01/28-13:21:28.706 15d6b Recovering log #7
+2020/01/28-13:21:28.708 15d6b Reusing old log /Users/uc17606/Library/Application Support/Google/Chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/000007.log 
+2020/01/28-13:21:49.320 1b01b Level-0 table #11: started
+2020/01/28-13:21:49.463 1b01b Level-0 table #11: 4372347 bytes OK
+2020/01/28-13:21:49.512 1b01b Delete type=0 #7
+2020/01/29-12:14:47.008 1b01b Level-0 table #13: started
+2020/01/29-12:14:47.100 1b01b Level-0 table #13: 4381946 bytes OK
+2020/01/29-12:14:47.153 1b01b Delete type=0 #10

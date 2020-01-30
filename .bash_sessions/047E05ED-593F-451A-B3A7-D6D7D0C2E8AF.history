@@ -1,0 +1,12 @@
+xcode-select --install
+cd desktop
+ls
+mkdir development
+cd development
+npm config set strict-ssl false
+npm install express-generator
+sudo ./node_modules/.bin/express --view=hbs market
+sudo chown uc17606 market
+cd market
+npm install
+DEBUG=helloworld:* npm start

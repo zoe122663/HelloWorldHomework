@@ -1,0 +1,55 @@
+xcode-select --install
+cd desktop
+ls
+mkdir development
+cd development
+npm config set strict-ssl false
+npm install express-generator
+sudo ./node_modules/.bin/express --view=hbs market
+sudo chown uc17606 market
+cd market
+npm install
+DEBUG=helloworld:* npm start
+PWD
+CD development
+CD ~/development
+CD /Users/uc17606/development
+~/development
+~/ development
+git init
+git add .
+cd desktop
+cd development
+cd market
+git init
+git add .
+git status
+git commit -m "Hello World Homework"
+git remote add origin https://github.com/zoe122663/HelloWorldHomework.git
+git push -u origin master
+git push -u origin master
+$ git init
+git push -u origin master
+ls
+ls - la
+ls -la
+cd HelloWorldHomework
+~/ HelloWorldHomework
+ls -la
+git init
+git add .
+git commit -m "HelloWorldHomework"
+git remote add origin https://github.com/zoe122663/HelloWorldHomework.git
+git remote -v
+git push -u origin master
+say Yajat u r looking good today
+say Yajat u r looking good today
+say Yajat u r looking good today
+say Yajat u r looking good today
+say Yajat u r looking good today
+say Yajat u r looking good today
+say Yajat u r looking good today
+say Yajat u r looking good today
+say Yajat u r looking good today
+say Yajat u r looking good today
+say Yajat u r looking good today

@@ -1,0 +1,68 @@
+01-24-20,12:41:53.089,1,1149d05c0,,UpdateManager.mm(165),0,0,NRM,--------------------------------------------------------------------
+01-24-20,12:41:53.089,2,1149d05c0,,UpdateManager.mm(169),0,0,NRM,StandaloneUpdater (version 19222.1110.0006) started up, initialized logging.
+01-24-20,12:41:53.089,3,1149d05c0,,UpdateManager.mm(195),0,0,VRB,Use generated MachineGuid FBC70D0D-51E8-4468-8060-D1A267EFF33D
+01-24-20,12:41:53.089,4,1149d05c0,,UpdateManager.mm(213),0,0,VRB,MachineGuid set to FBC70D0D-51E8-4468-8060-D1A267EFF33D
+01-24-20,12:41:53.090,5,1149d05c0,,UpdateManager.mm(270),0,0,ERR,App at /Applications/OneDrive.app is not writable to the user
+01-24-20,12:41:53.104,6,1149d05c0,,UpdaterDaemonProxy.m(38),0,0,VRB,Initializing XPC connection with Mach Service Name: com.microsoft.OneDriveStandaloneUpdaterDaemon
+01-24-20,12:41:53.120,7,1149d05c0,,DownloadUpdateOperation.m(127),0,0,VRB,Started downloading... : https://g.live.com/odclientsettings/Prod to /var/folders/sb/nr63rql53lvff0b9ctg3jpns5fq0rg/T/UpdateRingSettings.json
+01-24-20,12:41:53.424,8,1149d05c0,,DownloadUpdateOperation.m(138),0,0,VRB,Received server response : url: https://oneclient.sfx.ms/PreSignInSettings/Prod/2020-01-24-00-00-50/PreSignInSettingsConfig.json, data size: 22951 bytes
+01-24-20,12:41:53.424,9,1149d05c0,,DownloadUpdateOperation.m(132),0,0,VRB,UpdaterDownload : created destination : /var/folders/sb/nr63rql53lvff0b9ctg3jpns5fq0rg/T/UpdateRingSettings.json
+01-24-20,12:41:53.426,a,1149d05c0,,DownloadUpdateOperation.m(103),0,0,VRB,Finished downloaded https://g.live.com/odclientsettings/Prod
+01-24-20,12:41:53.426,b,1149d05c0,,UpdateManager.mm(313),0,0,VRB,Download UpdateRingSettings.json succeeded.
+01-24-20,12:41:53.445,c,1149d05c0,,UpdateManager.mm(330),0,0,VRB,Initializing UpdateRingSettings.json succeeded.
+01-24-20,12:41:53.446,d,1149d05c0,,UpdateManager.mm(337),0,0,VRB,UpdateRingSettings.json succeeded.
+01-24-20,12:41:53.458,e,1149d05c0,,UpdateManager.mm(454),0,0,VRB,Performing Update...
+01-24-20,12:41:53.458,f,70000dfbb000,,UpdateURLDetector.mm(45),0,0,NRM,Detecting url for ring: 5 for StandaloneUpdater
+01-24-20,12:41:53.458,10,70000dfbb000,,UpdateURLDetector.mm(88),0,0,NRM,Using URL: https://g.live.com/0USSDMC_W5T/MacODSUProduction
+01-24-20,12:41:53.458,11,70000dfbb000,,CheckUpdateOperation.m(151),0,0,VRB,Starting periodic check for updates...
+01-24-20,12:41:53.459,12,70000dfbb000,,CheckUpdateOperation.m(168),0,0,VRB,Current version : 19.222.1110.0006
+01-24-20,12:41:53.460,13,70000dfbb000,,DownloadUpdateOperation.m(127),0,0,VRB,Started downloading... : https://g.live.com/0USSDMC_W5T/MacODSUProduction to /var/folders/sb/nr63rql53lvff0b9ctg3jpns5fq0rg/T/OneDriveVersion.xml
+01-24-20,12:41:53.505,14,70000dfbb000,,DownloadUpdateOperation.m(138),0,0,VRB,Received server response : url: https://oneclient.sfx.ms/Mac/Prod/19.192.0926.0012/update100.xml, data size: 1844 bytes
+01-24-20,12:41:53.505,15,70000dfbb000,,DownloadUpdateOperation.m(132),0,0,VRB,UpdaterDownload : created destination : /var/folders/sb/nr63rql53lvff0b9ctg3jpns5fq0rg/T/OneDriveVersion.xml
+01-24-20,12:41:53.507,16,70000dfbb000,,DownloadUpdateOperation.m(103),0,0,VRB,Finished downloaded https://g.live.com/0USSDMC_W5T/MacODSUProduction
+01-24-20,12:41:53.507,17,70000dfbb000,,CheckUpdateOperation.m(217),0,0,VRB,Parsing RootManifestVersion 1
+01-24-20,12:41:53.507,18,70000dfbb000,,CheckUpdateOperation.m(240),0,0,VRB,Current entry, Throttle:100.000000, minApplicable:17.003.6389.0225, maxApplicable:19.033.0218.0013
+01-24-20,12:41:53.507,19,70000dfbb000,,CheckUpdateOperation.m(250),0,0,VRB,Current manifest is rejected by min/max applicable check
+01-24-20,12:41:53.507,1a,70000dfbb000,,CheckUpdateOperation.m(240),0,0,VRB,Current entry, Throttle:100.000000, minApplicable:19.043.0304.0009, maxApplicable:19.999.9999.9999
+01-24-20,12:41:53.507,1b,70000dfbb000,,CheckUpdateOperation.m(81),0,0,VRB,Online version : 19.192.0926.0012
+01-24-20,12:41:53.507,1c,70000dfbb000,,CheckUpdateOperation.m(89),0,0,VRB,Minimum required version : 17.000.5001.0225
+01-24-20,12:41:53.508,1d,70000dfbb000,,CheckUpdateOperation.m(132),0,0,VRB,Current Update period : 86400 seconds
+01-24-20,12:41:53.508,1e,70000dfbb000,,CheckUpdateOperation.m(142),0,0,VRB,Binary url : https://oneclient.sfx.ms/Mac/Prod/19.192.0926.0012/OneDrive.zip
+01-24-20,12:41:53.508,1f,70000dfbb000,,CheckUpdateOperation.m(143),0,0,VRB,Sha1 hash : 9065837bbcc6ca507ee2ce012a492fa01a67e59b
+01-24-20,12:41:53.508,20,70000dfbb000,,CheckUpdateOperation.m(144),0,0,VRB,Update period : 1440 minutes
+01-24-20,12:41:53.508,21,1149d05c0,,UpdateManager.mm(664),0,0,VRB,No update available at this time.
+01-24-20,12:41:58.723,22,1149d05c0,,UpdateManager.mm(493),0,0,VRB,ODSU exits with no update available.
+01-24-20,12:44:52.315,1,1182245c0,,UpdateManager.mm(165),0,0,NRM,--------------------------------------------------------------------
+01-24-20,12:44:52.315,2,1182245c0,,UpdateManager.mm(169),0,0,NRM,StandaloneUpdater (version 19222.1110.0006) started up, initialized logging.
+01-24-20,12:44:52.316,3,1182245c0,,UpdateManager.mm(189),0,0,VRB,Use preference MachineGuid FBC70D0D-51E8-4468-8060-D1A267EFF33D
+01-24-20,12:44:52.316,4,1182245c0,,UpdateManager.mm(213),0,0,VRB,MachineGuid set to FBC70D0D-51E8-4468-8060-D1A267EFF33D
+01-24-20,12:44:52.316,5,1182245c0,,UpdateManager.mm(270),0,0,ERR,App at /Applications/OneDrive.app is not writable to the user
+01-24-20,12:44:52.331,6,1182245c0,,UpdaterDaemonProxy.m(38),0,0,VRB,Initializing XPC connection with Mach Service Name: com.microsoft.OneDriveStandaloneUpdaterDaemon
+01-24-20,12:44:52.346,7,1182245c0,,DownloadUpdateOperation.m(127),0,0,VRB,Started downloading... : https://g.live.com/odclientsettings/Prod to /var/folders/sb/nr63rql53lvff0b9ctg3jpns5fq0rg/T/UpdateRingSettings.json
+01-24-20,12:44:52.630,8,1182245c0,,DownloadUpdateOperation.m(138),0,0,VRB,Received server response : url: https://oneclient.sfx.ms/PreSignInSettings/Prod/2020-01-24-00-00-50/PreSignInSettingsConfig.json, data size: 22951 bytes
+01-24-20,12:44:52.631,9,1182245c0,,DownloadUpdateOperation.m(132),0,0,VRB,UpdaterDownload : created destination : /var/folders/sb/nr63rql53lvff0b9ctg3jpns5fq0rg/T/UpdateRingSettings.json
+01-24-20,12:44:52.633,a,1182245c0,,DownloadUpdateOperation.m(103),0,0,VRB,Finished downloaded https://g.live.com/odclientsettings/Prod
+01-24-20,12:44:52.633,b,1182245c0,,UpdateManager.mm(313),0,0,VRB,Download UpdateRingSettings.json succeeded.
+01-24-20,12:44:52.644,c,1182245c0,,UpdateManager.mm(330),0,0,VRB,Initializing UpdateRingSettings.json succeeded.
+01-24-20,12:44:52.645,d,1182245c0,,UpdateManager.mm(337),0,0,VRB,UpdateRingSettings.json succeeded.
+01-24-20,12:44:52.654,e,1182245c0,,UpdateManager.mm(454),0,0,VRB,Performing Update...
+01-24-20,12:44:52.654,f,70000858b000,,UpdateURLDetector.mm(45),0,0,NRM,Detecting url for ring: 5 for StandaloneUpdater
+01-24-20,12:44:52.654,10,70000858b000,,UpdateURLDetector.mm(88),0,0,NRM,Using URL: https://g.live.com/0USSDMC_W5T/MacODSUProduction
+01-24-20,12:44:52.655,11,70000858b000,,CheckUpdateOperation.m(151),0,0,VRB,Starting periodic check for updates...
+01-24-20,12:44:52.656,12,70000858b000,,CheckUpdateOperation.m(168),0,0,VRB,Current version : 19.222.1110.0006
+01-24-20,12:44:52.657,13,70000858b000,,DownloadUpdateOperation.m(127),0,0,VRB,Started downloading... : https://g.live.com/0USSDMC_W5T/MacODSUProduction to /var/folders/sb/nr63rql53lvff0b9ctg3jpns5fq0rg/T/OneDriveVersion.xml
+01-24-20,12:44:52.703,14,70000858b000,,DownloadUpdateOperation.m(138),0,0,VRB,Received server response : url: https://oneclient.sfx.ms/Mac/Prod/19.192.0926.0012/update100.xml, data size: 1844 bytes
+01-24-20,12:44:52.704,15,70000858b000,,DownloadUpdateOperation.m(132),0,0,VRB,UpdaterDownload : created destination : /var/folders/sb/nr63rql53lvff0b9ctg3jpns5fq0rg/T/OneDriveVersion.xml
+01-24-20,12:44:52.705,16,70000858b000,,DownloadUpdateOperation.m(103),0,0,VRB,Finished downloaded https://g.live.com/0USSDMC_W5T/MacODSUProduction
+01-24-20,12:44:52.706,17,70000858b000,,CheckUpdateOperation.m(217),0,0,VRB,Parsing RootManifestVersion 1
+01-24-20,12:44:52.706,18,70000858b000,,CheckUpdateOperation.m(240),0,0,VRB,Current entry, Throttle:100.000000, minApplicable:17.003.6389.0225, maxApplicable:19.033.0218.0013
+01-24-20,12:44:52.706,19,70000858b000,,CheckUpdateOperation.m(250),0,0,VRB,Current manifest is rejected by min/max applicable check
+01-24-20,12:44:52.706,1a,70000858b000,,CheckUpdateOperation.m(240),0,0,VRB,Current entry, Throttle:100.000000, minApplicable:19.043.0304.0009, maxApplicable:19.999.9999.9999
+01-24-20,12:44:52.706,1b,70000858b000,,CheckUpdateOperation.m(81),0,0,VRB,Online version : 19.192.0926.0012
+01-24-20,12:44:52.706,1c,70000858b000,,CheckUpdateOperation.m(89),0,0,VRB,Minimum required version : 17.000.5001.0225
+01-24-20,12:44:52.706,1d,70000858b000,,CheckUpdateOperation.m(132),0,0,VRB,Current Update period : 86400 seconds
+01-24-20,12:44:52.706,1e,70000858b000,,CheckUpdateOperation.m(142),0,0,VRB,Binary url : https://oneclient.sfx.ms/Mac/Prod/19.192.0926.0012/OneDrive.zip
+01-24-20,12:44:52.706,1f,70000858b000,,CheckUpdateOperation.m(143),0,0,VRB,Sha1 hash : 9065837bbcc6ca507ee2ce012a492fa01a67e59b
+01-24-20,12:44:52.706,20,70000858b000,,CheckUpdateOperation.m(144),0,0,VRB,Update period : 1440 minutes
+01-24-20,12:44:52.706,21,1182245c0,,UpdateManager.mm(664),0,0,VRB,No update available at this time.
+01-24-20,12:44:53.749,22,1182245c0,,UpdateManager.mm(493),0,0,VRB,ODSU exits with no update available.

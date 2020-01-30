@@ -1,0 +1,33 @@
+2020/01/24-07:52:40.783 c803 Reusing MANIFEST /Users/uc17606/Library/Application Support/Google/Chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2020/01/24-07:52:40.784 c803 Recovering log #3
+2020/01/24-07:52:40.784 c803 Reusing old log /Users/uc17606/Library/Application Support/Google/Chrome/Default/Local Storage/leveldb/000003.log 
+2020/01/27-23:13:09.165 111a3 Level-0 table #5: started
+2020/01/27-23:13:09.196 111a3 Level-0 table #5: 15974 bytes OK
+2020/01/27-23:13:09.341 111a3 Delete type=0 #3
+2020/01/28-00:56:05.063 111a3 Level-0 table #7: started
+2020/01/28-00:56:05.118 111a3 Level-0 table #7: 13162 bytes OK
+2020/01/28-00:56:05.252 111a3 Delete type=0 #4
+2020/01/28-01:12:35.927 111a3 Level-0 table #9: started
+2020/01/28-01:12:35.960 111a3 Level-0 table #9: 10202 bytes OK
+2020/01/28-01:12:36.055 111a3 Delete type=0 #6
+2020/01/28-07:30:55.245 111a3 Level-0 table #11: started
+2020/01/28-07:30:55.278 111a3 Level-0 table #11: 10971 bytes OK
+2020/01/28-07:30:55.374 111a3 Delete type=0 #8
+2020/01/28-14:30:38.624 111a3 Level-0 table #13: started
+2020/01/28-14:30:38.653 111a3 Level-0 table #13: 11817 bytes OK
+2020/01/28-14:30:38.745 111a3 Delete type=0 #10
+2020/01/29-22:47:04.618 111a3 Level-0 table #15: started
+2020/01/29-22:47:04.656 111a3 Level-0 table #15: 13545 bytes OK
+2020/01/29-22:47:04.796 111a3 Delete type=0 #12
+2020/01/29-22:47:04.843 111a3 Compacting 4@0 + 1@1 files
+2020/01/29-22:47:04.875 111a3 Generated table #16@0: 85 keys, 8936 bytes
+2020/01/29-22:47:04.876 111a3 Compacted 4@0 + 1@1 files => 8936 bytes
+2020/01/29-22:47:05.016 111a3 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/01/29-22:47:05.019 111a3 Delete type=2 #15
+2020/01/29-22:47:05.019 111a3 Delete type=2 #7
+2020/01/29-22:47:05.019 111a3 Delete type=2 #13
+2020/01/29-22:47:05.020 111a3 Delete type=2 #11
+2020/01/29-22:47:05.020 111a3 Delete type=2 #9
+2020/01/29-22:47:28.471 111a3 Level-0 table #18: started
+2020/01/29-22:47:28.500 111a3 Level-0 table #18: 9389 bytes OK
+2020/01/29-22:47:28.640 111a3 Delete type=0 #14
